@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Upgradation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #98a4db;
+        }
+        header {
+            background-color: #a71212;
+            color: #f7f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ddd6d6;
+            color: #670def;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #921212;
+            color: #09f634;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+<header>
+    <h1>Faculty Upgradation System</h1>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a> |
+    <a href="#courses">Courses</a> |
+    <a href="#grades">Grades</a> |
+    <a href="#apply">Apply for Upgradation</a>
+</nav>
+<div class="container">
+    <div class="width-25 logo"> <img src="images/logo.png"> </div>
+    <div class="width-75 head-menu">
+       <ul>
+          <a href="#">Home</a> |
+          <a href="#">About us</a>|
+          <a href="#">Admission</a>|
+          <a href="#">Notice Board</a>|
+          <a href="#">Event</a>|
+          <a href="#">Contact us</a>|
+       </ul>
+    </div>
+ </div>
+
+<section id="profile">
+    <h2>Profile</h2>
+    <!-- Add profile information here -->
+    <p>Name: Rohit Lanjewar</p> 
+    <p>Department: Computer Science</p>
+    <p>Email: rohitlanjewar56@gmail.com</p>
+</section>
+
+<section id="courses">
+    <h2>Courses</h2>
+    <!--  Covers basics like algorithms, data structures, and programming principles.-->
+    <ul>
+        <li>Course 1: Introduction to Computer Science</li>
+        <li>Course 2: Algorithms and Data Structures</li>
+        <li>Course 3: Database Management Systems</li>
+    </ul>
+</section>
+
+<section id="grades">
+    <h2>Grades</h2>
+    <!-- Add grades information here -->
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Introduction to Computer Science</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Algorithms and Data Structures</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>Database Management Systems</td>
+            <td>A-</td>
+        </tr>
+    </table>
+</section>
+
+<div class="container">
+    <h1>Faculty Upgradation Website</h1>
+    <p>Welcome to our platform dedicated to faculty upgradation!</p>
+    <p>Here, we focus on:</p>
+    <ul>
+      <li>Capacity building</li>
+      <li>Performance assessment</li>
+      <li>Motivation-driven tools</li>
+    </ul>
+    <p>Our goal is to empower faculty members to excel in their roles and contribute effectively to the academic community.</p>
+  </div>
+<section id="apply">
+    <h2>Apply for Upgradation</h2>
+    <!-- Add form for upgradation application here -->
+    <form action="submit_upgradation.php" method="post">
+        <label for="reason">Reason for Upgradation:</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Faculty Upgradation System</p>
+</footer>
+
+</body>
+</html>
